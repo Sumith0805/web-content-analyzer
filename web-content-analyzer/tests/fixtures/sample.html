@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Page for Testing</title>
+  <meta name="description" content="A sample page used to test the web content analyzer.">
+  <meta property="og:title" content="Sample OG Title">
+  <meta property="og:description" content="Sample OG description.">
+</head>
+<body>
+  <h1>Welcome to the Sample Page</h1>
+  <p>This page exists purely to test the web content analyzer tool. The tool
+  should be able to extract this description, count these words, and find
+  the links below. Testing is important. Testing helps catch bugs early.</p>
+
+  <h2>Section One</h2>
+  <p>Here is some more sample content about data analysis and automation.
+  Automation saves time. Data analysis reveals insights.</p>
+
+  <h2>Section Two</h2>
+  <h3>Subsection</h3>
+  <p>Another paragraph with different words: python, regex, beautifulsoup,
+  requests, scraping, parsing, metadata.</p>
+
+  <a href="/internal-page">Internal link</a>
+  <a href="https://example.com/internal-page">Internal absolute link</a>
+  <a href="https://external-site.com/page">External link</a>
+  <a href="#section">Anchor link (should be skipped)</a>
+  <a href="mailto:test@example.com">Mail link (should be skipped)</a>
+</body>
+</html>
